@@ -1,2 +1,3 @@
-# extends-super-keywords
- extends-super-keywords 
+# Extends Super Keyword in JavaScript using ES6
+
+extends-super-keywords
