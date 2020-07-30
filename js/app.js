@@ -1,13 +1,5 @@
 'use stric';
 class Person {
-	static species() {
-		return 'pipipire';
-	}
-
-	static specieSent() {
-		return `I love JavaScript with ${species()}`;
-	}
-
 	constructor(fName, lName, gender, salary) {
 		this.fName = fName;
 		this.lName = lName;
@@ -52,7 +44,8 @@ class Employee extends Person {
 }
 let x,
 	text = '';
-const person = new Person('Julia', 'Emma', 'Female', 1768, 'false');
+
+const person = new Person('Sue', 'Emma', 'Female', 2001, 'false');
 
 // displaying the Object in a Loop
 for (x in person) {
