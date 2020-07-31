@@ -1,5 +1,7 @@
 'use stric';
 class Person {
+
+	
 	constructor(fName, lName, gender, salary) {
 		this.fName = fName;
 		this.lName = lName;
@@ -44,7 +46,7 @@ class Employee extends Person {
 }
 let x,
 	text = '';
-
+// instance 
 const person = new Person('Sue', 'Emma', 'Female', 2001, 'false');
 
 // displaying the Object in a Loop
